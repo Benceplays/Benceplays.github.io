@@ -1,0 +1,10 @@
+body {
+    background-color: #121212 !important; 
+    color: #eaeaea !important;
+}
+
+.hero {
+  background-color: #121212;
+  background-image: radial-gradient(#d6d6d6 0.1px, transparent 1px);
+  background-size: 20px 20px;
+}
