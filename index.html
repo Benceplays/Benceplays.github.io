@@ -69,7 +69,7 @@
         <h2 class="fw-bold text-center text-primary">Rólam</h2>
         <div class="row">
             <div class="col-md-6">
-                <div style="height: 300px; margin-top: 5%;" class="p-5 bg-primary text-white rounded-3">
+                <div style="min-height: 300px; margin-top: 5%;" class="p-5 bg-primary text-white rounded-3">
                     <h4>Rólam</h4>
                     <p>Többnyelvű fejlesztőként aktívan foglalkozom játékfejlesztéssel Pythonban, C#-ban és a Godot játékmotorban. 
                         Backend oldalon PHP-vel és Node.js-sel építek projekteket. Technológiai repertoárom a JavaScripttől a .NET-en 
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div style="height: 300px; margin-top: 5%;" class="p-5 bg-secondary text-white rounded-3">
+                <div style="min-height: 300px; margin-top: 5%;" class="p-5 bg-secondary text-white rounded-3">
                     <h4>Készségek</h4>
                     <h5 style="margin-top: 5%;">Technológiai ismeretek</h5>
                     <div class="skills">
@@ -262,13 +262,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <form onsubmit="sendMail(); return false;" style="background-color: #0D6EFD; border-radius: 10px;">
+            </div>
+                <div class="col-md-6" style="background-color: #0D6EFD; border-radius: 10px;">
+                    <form onsubmit="sendMail(); return false;">
                         <div class="p-5 text-white rounded-3">
                             <p>Név</p>
                             <input id="name" class="inputStyle" type="text">
                             <p>Email</p>
-                            <input id="email" class="inputStyle" type="email">
+                            <input id="email" class="inputStyle" type="email" name="" id="">
                             <p>Tárgy</p>
                             <input id="subject" class="inputStyle" type="text">
                             <p>Üzenet</p>
@@ -278,7 +279,6 @@
                     </form>
                 </div>
             </div>
-        </div>
     </div>
 </section> 
 
