@@ -2,12 +2,14 @@ body {
     background-color: #121212 !important; 
     color: #eaeaea !important;
 }
+
 /*Pöttyözés*/
 .hero {
   background-color: #121212;
   background-image: radial-gradient(#d6d6d6 0.1px, transparent 1px);
   background-size: 20px 20px;
 }
+
 /*képességek(kis buborékok)*/
 .skills {
       display: flex;
@@ -28,6 +30,24 @@ body {
   background-color: #cce0ff;
   transform: scale(1.05);
 }
+
+/*Projektjeim*/
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.project-img {
+  height: 75%;
+  object-fit: cover;
+}
+.project-body {
+  height: 25%;
+}
+
 /*kapcsolat rész stílus*/
 .inputStyle{
   width: 100%;

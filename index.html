@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript.js"></script>
     <title>Nemeth Csaba Bence</title>
@@ -64,10 +66,10 @@
 
 <section id="rolam" class="py-5">
     <div class="container">
-        <h3 class="fw-bold text-center text-primary">Rólam</h3>
-        <div class="row" style="margin-top: 5%;">
+        <h2 class="fw-bold text-center text-primary">Rólam</h2>
+        <div class="row">
             <div class="col-md-6">
-                <div class="p-5 bg-primary text-white rounded-3">
+                <div style="height: 300px; margin-top: 5%;" class="p-5 bg-primary text-white rounded-3">
                     <h4>Rólam</h4>
                     <p>Többnyelvű fejlesztőként aktívan foglalkozom játékfejlesztéssel Pythonban, C#-ban és a Godot játékmotorban. 
                         Backend oldalon PHP-vel és Node.js-sel építek projekteket. Technológiai repertoárom a JavaScripttől a .NET-en 
@@ -76,7 +78,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="p-5 bg-secondary text-white rounded-3">
+                <div style="height: 300px; margin-top: 5%;" class="p-5 bg-secondary text-white rounded-3">
                     <h4>Készségek</h4>
                     <h5 style="margin-top: 5%;">Technológiai ismeretek</h5>
                     <div class="skills">
@@ -96,9 +98,53 @@
                 </div>
             </div>
             <div>
-                <h3 class="text-center text-primary" style="margin-top: 5%;">Hobbijaim</h3>
-                <div class="background-primary">
-                    
+                <h2 class="text-center text-primary fw-bold" style="margin-top: 5%;">Hobbijaim</h2>
+                <div class="container my-5">
+                    <div class="row row-cols-2 row-cols-md-3 g-4 text-center">
+
+                        <div class="col">
+                        <div class="p-4 bg-primary text-white rounded-circle mx-auto d-flex flex-column align-items-center justify-content-center" style="width:120px; height:120px;">
+                            <div class="fs-1">🍳</div>
+                            <small>Főzés</small>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="p-4 bg-secondary text-white rounded-circle mx-auto d-flex flex-column align-items-center justify-content-center" style="width:120px; height:120px;">
+                            <div class="fs-1">🏋️</div>
+                            <small>Edzés</small>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="p-4 bg-primary text-white rounded-circle mx-auto d-flex flex-column align-items-center justify-content-center" style="width:120px; height:120px;">
+                            <div class="fs-1">💻</div>
+                            <small>Fejlesztés, tanulás</small>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="p-4 bg-secondary text-white rounded-circle mx-auto d-flex flex-column align-items-center justify-content-center" style="width:120px; height:120px;">
+                            <div class="fs-1">🥾</div>
+                            <small>Kirándulás</small>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="p-4 bg-primary text-white rounded-circle mx-auto d-flex flex-column align-items-center justify-content-center" style="width:120px; height:120px;">
+                            <div class="fs-1">🔧</div>
+                            <small>Szerelés</small>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="p-4 bg-secondary text-white rounded-circle mx-auto d-flex flex-column align-items-center justify-content-center" style="width:120px; height:120px;">
+                            <div class="fs-1">🚗</div>
+                            <small>Autók</small>
+                        </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,20 +153,68 @@
 
 <section id="projektek" class="py-5">
     <div class="container">
-        <h3 class="fw-bold text-center text-primary">Eddigi projektjeim</h3>
-        <div class="row" style="margin-top: 5%;">
-            <div class="col-md-6">
-                <div class="p-5 bg-primary text-white rounded-3">
-                    <h4>Eddigi projektjeim</h4>
-                    <p>Többnyelvű fejlesztőként aktívan foglalkozom játékfejlesztéssel Pythonban, C#-ban és a Godot játékmotorban. 
-                        Backend oldalon PHP-vel és Node.js-sel építek projekteket. Technológiai repertoárom a JavaScripttől a .NET-en 
-                        át egészen a natív C-ig terjed, így sokoldalúan és nyitottan merülök bele különböző fejlesztési területekbe.
-                    </p>
+        <h2 class="fw-bold text-center text-primary">Eddigi projektjeim</h2>
+        <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                <div class="card h-100 rounded-3 shadow-sm project-card">
+                    <img src="img/images.jpg" class="card-img-top project-img" alt="Projekt 1 képe">
+                    <div class="card-body project-body bg-white">
+                    <h5 class="card-title">Projekt 1</h5>
+                    <p class="card-text">Rövid leírás a projektről.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="p-5 bg-secondary text-white rounded-3">
-                    <h4>Készségek</h4>
+                </div>
+
+                <div class="col">
+                <div class="card h-100 rounded-3 shadow-sm project-card">
+                    <img src="img/images.jpg" class="card-img-top project-img" alt="Projekt 2 képe">
+                    <div class="card-body project-body bg-white">
+                    <h5 class="card-title">Projekt 2</h5>
+                    <p class="card-text">Rövid leírás a projektről.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                <div class="card h-100 rounded-3 shadow-sm project-card">
+                    <img src="img/images.jpg" class="card-img-top project-img" alt="Projekt 3 képe">
+                    <div class="card-body project-body bg-white">
+                    <h5 class="card-title">Projekt 3</h5>
+                    <p class="card-text">Rövid leírás a projektről.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                <div class="card h-100 rounded-3 shadow-sm project-card">
+                    <img src="img/images.jpg" class="card-img-top project-img" alt="Projekt 4 képe">
+                    <div class="card-body project-body bg-white">
+                    <h5 class="card-title">Projekt 4</h5>
+                    <p class="card-text">Rövid leírás a projektről.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                <div class="card h-100 rounded-3 shadow-sm project-card">
+                    <img src="img/images.jpg" class="card-img-top project-img" alt="Projekt 5 képe">
+                    <div class="card-body project-body bg-white">
+                    <h5 class="card-title">Projekt 5</h5>
+                    <p class="card-text">Rövid leírás a projektről.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                <div class="card h-100 rounded-3 shadow-sm project-card">
+                    <img src="img/images.jpg" class="card-img-top project-img" alt="Projekt 6 képe">
+                    <div class="card-body project-body bg-white">
+                    <h5 class="card-title">Projekt 6</h5>
+                    <p class="card-text">Rövid leírás a projektről.</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -129,7 +223,7 @@
 
 <section id="kapcsolat" style="background-color: #121215;" class="py-5">
     <div class="container">
-        <h3 class="fw-bold text-center text-primary">Kapcsolat</h3>
+        <h2 class="fw-bold text-center text-primary">Kapcsolat</h2>
         <div class="row" style="margin-top: 5%;">
             <div class="col-md-6">
                 <div class="p-5 text-white rounded-3">
@@ -137,24 +231,57 @@
                     <p>Ha érdekelnek a munkáim vagy szeretnél együtt dolgozni egy projektben, 
                        ne habozz felvenni velem a kapcsolatot!
                     </p>
+                    <div class="container mt-4">
+                        <div class="d-flex flex-column align-items-start gap-3 text-white">
+
+                            <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-telephone-fill fs-5 text-primary"></i>
+                            <span>+36 30 949 3928</span>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-envelope-fill fs-5 text-primary"></i>
+                            <span>nemeth.csaba.bence@gmail.com</span>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-linkedin fs-5 text-primary"></i>
+                            <a href="https://www.linkedin.com/in/csaba-bence-nemeth/" class="text-decoration-none text-white">LinkedIn</a>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-facebook fs-5 text-primary"></i>
+                            <a href="https://www.facebook.com/profile.php?id=100016517313135" class="text-decoration-none text-white">Facebook</a>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-github fs-5 text-primary"></i>
+                            <a href="https://github.com/Benceplays" class="text-decoration-none text-white">GitHub</a>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6" style="background-color: #0D6EFD; border-radius: 10px;">
-                <div class="p-5 text-white rounded-3">
-                    <p>Név</p>
-                    <input class="inputStyle" type="text">
-                    <p>Email</p>
-                    <input class="inputStyle" type="email" name="" id="">
-                    <p>Tárgy</p>
-                    <input class="inputStyle" type="text">
-                    <p>Üzenet</p>
-                    <input class="inputStyle" type="text"><br>
-                    <button id="inputButtonStyle" onclick="email">Üzenet elküldése</button>
+                <div class="col-md-6">
+                    <form onsubmit="sendMail(); return false;" style="background-color: #0D6EFD; border-radius: 10px;">
+                        <div class="p-5 text-white rounded-3">
+                            <p>Név</p>
+                            <input id="name" class="inputStyle" type="text">
+                            <p>Email</p>
+                            <input id="email" class="inputStyle" type="email">
+                            <p>Tárgy</p>
+                            <input id="subject" class="inputStyle" type="text">
+                            <p>Üzenet</p>
+                            <input id="message" class="inputStyle" type="text"><br>
+                            <button id="inputButtonStyle" type="submit">Üzenet elküldése</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 </section> 
+
 <footer class="bg-dark text-light text-center py-4 mt-5">
   <div class="container">
     <h3 class="fw-bold text-gradient">Németh Csaba Bence</h3>
@@ -171,5 +298,6 @@
     <p class="text-secondary mb-0">&copy; 2025 Németh Csaba Bence. Minden jog fenntartva.</p>
   </div>
 </footer>
+
 </body>
 </html>
